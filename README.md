@@ -7,12 +7,13 @@ Linear Semi-Infinite Programming Relaxations for Polynomial Programming problems
 
 The required Python 3 packages for the AL-ROMP solver implementation are:
 
-- numpy
-- scipy
 - chompack
 - cvxopt
-- pandas
+- numpy
 - osqp
+- pandas
+- scipy
+
 
 For the benchmarks, the packages docplex (CPLEX API) and Fusion (MOSEK API) are also required.
 
