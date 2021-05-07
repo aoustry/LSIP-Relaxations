@@ -43,5 +43,5 @@ def execute(filepath, name):
 ################################# Applying the instructions for all instances ########################################
 for i in range(0,10):
     name = "w09_100.{0}".format(i)
-    filepath = "data/rudy/"+name    
+    filepath = "biqmaclib/rudy/"+name    
     execute(filepath,name)
