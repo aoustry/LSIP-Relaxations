@@ -42,6 +42,6 @@ def execute(name,i):
 
 ################################# Applying the instructions for all instances ########################################
 
-for i in [1,2,3,4,5,6,10]:
+for i in [1,2,3,4,5,6,7]:
     name = "rand"+str(i)
     execute(name,i)
