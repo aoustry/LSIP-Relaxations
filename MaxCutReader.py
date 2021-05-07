@@ -23,7 +23,6 @@ class MaxCutReader():
             line = (file.readline())
             array = line.split(" ")
             i,j, val = int(array[0]), int(array[1]), float(array[2])
-            print(i,j,val)
             btup.append((i-1,j-1))
             assert(i<j)
             bcoefs.append(0.5*val)
