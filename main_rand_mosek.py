@@ -14,7 +14,6 @@ Created on Fri Sep 18 17:04:06 2020
 import QPInstance
 import MosekRelaxationSolver
 import FileReader
-import numpy as np
 
 
 
@@ -37,4 +36,9 @@ def execute(name,i):
 
 for i in [1,2,3,4,6,7]:
     name = "rand"+str(i)
-    execute(name,i)
+    try:
+        execute(name,i)
+    except Exception as inst:
+        f = open("output_mosek/"+name+"_mosek.csv","w")
+        f.write(str(inst))
+        f.close()

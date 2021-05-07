@@ -36,5 +36,10 @@ def execute(filepath, name):
 for i in range(0,10):
     name = "w09_100.{0}".format(i)
     filepath = "biqmaclib/rudy/"+name    
-    execute(filepath,name)
+    try:
+        execute(filepath,name)
+    except Exception as inst:
+        f = open("output_mosek/"+name+"_mosek.csv","w")
+        f.write(str(inst))
+        f.close()
     
