@@ -28,7 +28,7 @@ def execute(filepath, name):
 ################################# Applying the instructions for all instances ########################################
 for i in range(1,6):
     name = "gka{0}f.sparse".format(i)
-    filepath = "data/gka/"+name   
+    filepath = "biqmaclib/gka/"+name   
     try:
         execute(filepath,name)
     except Exception as inst:
