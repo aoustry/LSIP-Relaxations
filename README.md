@@ -12,3 +12,9 @@ The required Python 3 packages are:
 - chompack
 - cvxopt
 - pandas
+
+
+## Executing the code
+
+
+The files main_###_algo.py give exemples of command to execute the AL-ROMP solver.
