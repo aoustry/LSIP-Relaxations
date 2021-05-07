@@ -1,0 +1,2 @@
+n,N,Number of ineq. constraints,Objective scaling factor,MinLb,MaxUb,cliques number 
+10000,317139,10000,10000000,0.01,1.0,6786

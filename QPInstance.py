@@ -126,7 +126,7 @@ class QPInstance():
                         J.append(a)
                         V.append(1.0)
                         V.append(1.0)
-        print("Len edges = {0}".format(len(self.edges)))
+        
         
         if len(self.edges)>0:
             if fulldense == False:
@@ -320,7 +320,7 @@ class QPInstance():
         f["MinLb"] = [self.lower_bounds.min()]
         f["MaxUb"] = [self.upper_bounds.max()]
         f["cliques number "] = [len(self.cliques)]
-        f.to_csv(self.name+"instance_params.csv",index=False)
+        f.to_csv("instances_characteristics/"+self.name+"instance_params.csv",index=False)
         
 
     def G_and_MCmatrix(self):

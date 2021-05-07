@@ -149,4 +149,4 @@ class FiniteConstraintRelaxationSolver():
         self.val = self.computeRelaxation()
         f = pd.DataFrame()
         f["Linear Relaxation Value"] = [self.val]
-        f.to_csv(filename+"LR.csv",index=False)
+        f.to_csv("output_LR/"+filename+"LR.csv",index=False)
