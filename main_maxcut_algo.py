@@ -24,7 +24,7 @@ folder = "output_algo"
 def execute(filepath, name):
 
     reader = MaxCutReader.MaxCutReader(filepath)
-    f = open(name+"half_sum_weights.txt","x")
+    f = open(name+"half_sum_weights.txt","w")
     f.write(str(reader.half_sum_weights))
     f.close()
     n = reader.n
