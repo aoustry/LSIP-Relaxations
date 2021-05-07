@@ -22,7 +22,6 @@ class SparseReader():
             line = (file.readline())
             array = line.split(" ")
             i,j, val = int(array[0]), int(array[1]), float(array[2])
-            print(i,j,val)
             tup.append((i-1,j-1))
             if i==j:
                 coefs.append(val)
