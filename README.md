@@ -5,7 +5,7 @@ Linear Semi-Infinite Programming Relaxations for Polynomial Programming problems
 
 
 
-The required Python 3 packages for the AL-ROMP are:
+The required Python 3 packages for the AL-ROMP solver implementation are:
 
 - numpy
 - scipy
